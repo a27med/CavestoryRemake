@@ -8,7 +8,7 @@ class Graphics {
 public:
 	// constructor: create the window and initialize
 	Graphics();
-	// deconstructor
+	// destructor
 	~Graphics();
 private:
 	// pointer to SDL_Window: where we are going to draw
